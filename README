@@ -1,0 +1,11 @@
+This is my distributed knowledge base.
+It is constanly being build on TiddlyWiki.
+
+How to use:
+Install node
+Install the package tiddlywiki
+Execute tiddlywiki . --listen
+
+
+For more details refers to: https://tiddlywiki.com/static/Installing%2520TiddlyWiki%2520on%2520Node.js.html
+

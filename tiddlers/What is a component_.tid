@@ -1,0 +1,10 @@
+created: 20191103035259782
+modified: 20191103035544129
+tags: 
+title: What is a component?
+type: text/vnd.tiddlywiki
+
+Component represent some UI section. 
+There are two types of components:
+Stateless: functions
+Statefull: classes
