@@ -1,10 +1,13 @@
 created: 20191103035259782
-modified: 20191103035544129
+modified: 20191103045003024
 tags: 
 title: What is a component?
 type: text/vnd.tiddlywiki
 
 Component represent some UI section. 
 There are two types of components:
-Stateless: functions
-Statefull: classes
+
+* Stateless: functions. Return the expected html. 
+It can receive a props object. 
+
+* Stateful: classes. contains a render method that return the expected html. The render method typically contains reference to other components, acting like a container.
