@@ -1,0 +1,13 @@
+created: 20191104234337245
+modified: 20191105024248409
+tags: node
+title: What is a Module
+type: text/vnd.tiddlywiki
+
+A Node module is a functionality organized in javascript files, that can be reused in an application.
+
+There are three types of modules:
+
+* [[Core |Core Module]]
+* [[Local |Local Module]]
+*[[ Third Party|Third Party Module]]

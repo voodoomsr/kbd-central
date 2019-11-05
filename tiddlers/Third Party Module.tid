@@ -1,0 +1,9 @@
+created: 20191105023740539
+modified: 20191105024219418
+tags: node
+title: Third Party Module
+type: text/vnd.tiddlywiki
+
+It is a module similar to the local ones in terms of code, but obeys certain conventions in its definition and how to obtain them.
+Generally a third party module is installed using NPM. This modules will live under the node_modules folder.
+In the package.json file that defines a third party module, there exists all the metadata required to identify and characterize the module.

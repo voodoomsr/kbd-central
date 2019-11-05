@@ -1,0 +1,17 @@
+created: 20191104232130680
+modified: 20191104234846040
+tags: node
+title: What is Node
+type: text/vnd.tiddlywiki
+
+It is a javascript runtime built on Chrome V8 engine.
+It provides an asynchronous mechanism to execute requests. 
+Node runs in a single process with a single main thread. Due to this nature it is well suited for non blocking cpu kind of applications - IO bounded. 
+There are ways to handle CPU bounded apps but it is not perfectly suited for that scenario.
+
+The process model:
+[img[process_model]]
+
+In a Node app code is organized in modules. See [[What is a Module]]
+
+

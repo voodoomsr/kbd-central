@@ -1,0 +1,38 @@
+created: 20191105021758277
+modified: 20191105022852624
+tags: node
+title: How to export module components?
+type: text/vnd.tiddlywiki
+
+The components that wanted to be exposed are required to be assigned to the exports/module.exports variable. The nature/type of the value is completely free.
+For example: 
+
+File a.js
+
+```
+module.exports = 'Hello world';
+```
+
+
+File b.js
+
+```
+var msg = require('./a.js')
+console.log(msg)
+```
+
+
+File a2.js
+
+```
+module.exports = function (asdf) { return asdf * 2}
+```
+
+File b2.js
+
+```
+var duplicate = require('./a2.js')
+console.log(duplicate(3))
+```
+
+

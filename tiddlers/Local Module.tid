@@ -1,0 +1,13 @@
+created: 20191105021426483
+modified: 20191105023001538
+tags: node
+title: Local Module
+type: text/vnd.tiddlywiki
+
+A local module could be 3 things in nature:
+
+# A js file
+# A folder with index.js file in it
+# A folder with package.json file with an entry called "main". This entry points to the js file to load.
+
+A js file need to export its internal components to be used by clients. See [[how to export components?|How to export module components?]]

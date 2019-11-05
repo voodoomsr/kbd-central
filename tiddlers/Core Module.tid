@@ -1,0 +1,8 @@
+created: 20191105004028267
+modified: 20191105021246115
+tags: node
+title: Core Module
+type: text/vnd.tiddlywiki
+
+A core module came by default in the Node runtime.
+It is necessary import it to use it.
