@@ -1,0 +1,13 @@
+created: 20191124164358934
+modified: 20191124170954198
+tags: draft cloud
+title: Horizontal Scaling
+type: text/vnd.tiddlywiki
+
+An application should be designed to support scale in/out horizontally.
+Depending on how the application is structured it is unavoidable some kind of coordination between a 'scheduler' and 'worker' entities. 
+
+Example in where these semantics appears: 
+
+* Web app : 'scheduler' web client, 'worker' server
+* 

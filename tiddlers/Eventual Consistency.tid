@@ -1,0 +1,20 @@
+created: 20191124170231822
+modified: 20191124171520831
+tags: patterns cloud
+title: Eventual Consistency
+type: text/vnd.tiddlywiki
+
+Eventual consistency refers that for certain operations not everything could be achieved perfectly, and some momentaneus inconsistency could exists.
+
+According to the CAP theorem https://en.wikipedia.org/wiki/CAP_theorem for distributed data stores is impossible to provide simultaneously  the following 3 characteristics. Only 2 are achievable.
+
+* Consistency: every read gets latest write
+* Availability: every request receive response
+* Partitionable: internal worker nodes could be partially swaped. that will not affect the processing outcome. (this definition is addapted for cloud, normally is just 'message in between' that are dropeed )
+
+
+By definition, eventually consistent databases do not support ACID guarantees, though they do support BASE. A BASE database is:
+
+* Basically Available: The system will respond even with stale data.
+* Soft  State: State might not be consistent and might be corrected.
+* Eventually Consistent: We allow for a delay before any individual data change completely propagates through the system.
