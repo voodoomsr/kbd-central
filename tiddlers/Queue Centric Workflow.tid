@@ -1,0 +1,15 @@
+created: 20191124165222102
+modified: 20191124170947462
+tags: draft patterns cloud
+title: Queue Centric Workflow
+type: text/vnd.tiddlywiki
+
+This pattern consist in coordinate the work between an scheduler and a worker using a queue in between. 
+
+Most of the modern website make use QCW in some sort,  for things like:
+
+* Long processing task
+* Distributed tasks
+* Handle high number of request simultaneously
+
+The pattern consist in the following: the 'scheduler' will enqueue a order and the 'worker' will 'dequeue' and process it.  The 'scheduler' doesn't need to know the result of the process immediately. It could be notified asynchronously at a latter time.

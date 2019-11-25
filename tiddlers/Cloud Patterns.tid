@@ -1,0 +1,10 @@
+created: 20191124164132610
+modified: 20191124170941134
+tags: draft patterns cloud
+title: Cloud Patterns
+type: text/vnd.tiddlywiki
+
+* [[Horizontal Scaling|Horizontal Scaling]] 
+* [[Queue Centric Workflow]]
+* AutoScaling 
+* [[Eventual Consistency]]
