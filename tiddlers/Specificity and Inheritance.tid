@@ -1,0 +1,18 @@
+created: 20191122133629926
+modified: 20191122135400238
+tags: css
+title: Specificity and Inheritance
+type: text/vnd.tiddlywiki
+
+On CSS multiple rules are applied to an element. Directly according to specificity rules are overwritten. Inheritance due to element composition has the least specificity of all types.
+
+Specificity in decreasing order:
+
+
+* Inline
+*  # Ids
+* .class, :pseudo-class and [attributes]
+* &lsaquo;Element&rsaquo; and ::pseudo-element
+* Inheritance <p/>
+
+Css files are processed from top to bottom so rules at the same level could be overwritten just by the mere fact that another is specified later.

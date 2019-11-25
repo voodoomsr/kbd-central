@@ -1,0 +1,10 @@
+created: 20191122143948807
+modified: 20191122144742466
+tags: css
+title: Pseudo classes, Pseudo elements
+type: text/vnd.tiddlywiki
+
+These two type of selectors lets you apply styles and even content base in two new semantics:
+
+* Pseudo Classes: define the style of a special ''state'' of an element. For example :hover (mouse over the element)
+* Pseudo Element: define the style of a special ''part'' of an element. For example ::after (following element) lets you add content after the element. Another exapmple ::first-letter, as the name implies lets you apply a style over the first letter of an element.

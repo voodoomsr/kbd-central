@@ -1,0 +1,9 @@
+created: 20191122180059440
+modified: 20191122180345102
+tags: css
+title: z-index
+type: text/vnd.tiddlywiki
+
+You could change the order in where elements are positioned between following the z axis. For that you need to have a different than the default value for the position attribute of the element.
+
+For elements that had the same z-index value, according to the order of appearance the are put it like a deck of cards, one above the previous.

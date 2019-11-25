@@ -1,0 +1,7 @@
+created: 20191122183648889
+modified: 20191122184022213
+tags: css
+title: Position relative
+type: text/vnd.tiddlywiki
+
+Element kept normal document position, but other properties are applied taking that position as context. This is different from the static positioning in where those attributes refers to the parent element.

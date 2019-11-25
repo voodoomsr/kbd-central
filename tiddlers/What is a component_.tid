@@ -1,5 +1,5 @@
 created: 20191103035259782
-modified: 20191104232112672
+modified: 20191106191344223
 tags: react
 title: What is a component?
 type: text/vnd.tiddlywiki
@@ -7,6 +7,6 @@ type: text/vnd.tiddlywiki
 Component represent some UI section. 
 There are two types of components:
 
-* Stateless: functions. Return the expected html.  It can receive a props object. 
+* Stateless: functions. Return a description of what you want to see. A hierarchy of views. As its name says they dont have an state associated.
 
-* Stateful: classes. contains a render method that return the expected html. The render method typically contains reference to other components, acting like a container.
+* Stateful: classes. contains a render method that do the same as the stateless function. This representation has an internal state that could trigger updates to what it is rendered.

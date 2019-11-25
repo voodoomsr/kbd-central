@@ -1,0 +1,8 @@
+created: 20191122182630585
+modified: 20191122183647012
+tags: css
+title: Position absolute
+type: text/vnd.tiddlywiki
+
+Positioning of the element according to the closest ancestor that has position defined.
+If no ancestor is found then the html element is the positioning context.
